@@ -184,9 +184,12 @@ export default function SolutionsSection() {
               </div>
 
               {/* CTA Button */}
-              <button className="w-full mt-8 px-6 py-4 bg-white text-green-600 font-semibold rounded-xl hover:bg-blue-50 transition-colors duration-300 shadow-lg">
+             <a 
+                href="tel:+233540808755"
+                className="block w-full mt-8 px-6 py-4 bg-white text-green-600 font-semibold rounded-xl hover:bg-blue-50 transition-colors duration-300 shadow-lg text-center"
+              >
                 Get Started Today →
-              </button>
+              </a>
             </div>
           </FadeIn>
         </div>

@@ -51,9 +51,12 @@ export default function Hero() {
               </FadeInText>
 
               <FadeInText delay={600}>
-                <button className="bg-green-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-700 transition-colors shadow-lg">
+                 <a 
+                  href="tel:+233540808755"
+                  className="inline-block bg-green-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-700 transition-colors shadow-lg"
+                >
                   Get Started Today →
-                </button>
+                </a>
               </FadeInText>
 
               <FadeInText delay={800}>
