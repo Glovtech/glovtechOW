@@ -19,7 +19,7 @@ export default function Navbar() {
 
   const navLinks = [
     { label: 'About us', href: '#about' },
-    { label: 'Products & Services', href: '#products' },
+    { label: 'Products & Services', href: '#services' },
     { label: 'Partner Portal', href: '#partner' },
     { label: 'Technical Information', href: '#technical' },
     { label: 'Developer Portal', href: '#developer' },
@@ -42,7 +42,7 @@ export default function Navbar() {
            
           </div>
 
-          {/* Menu Button */}
+  
           <button 
             onClick={() => setMenuOpen(!menuOpen)}
             className="flex items-center gap-2 bg-green-600 text-white px-6 py-2 rounded-full hover:bg-green-700 transition-colors"
@@ -50,9 +50,9 @@ export default function Navbar() {
             Menu {menuOpen ? '✕' : '→'}
           </button>
 
-          {/* Support Button */}
+        
           <a 
-            href="#support"
+            href="tel:+233540808755"
             className="hidden md:block border border-gray-300 px-6 py-2 rounded-full text-sm text-gray-700 hover:bg-gray-50 transition-colors"
           >
             Support →
@@ -60,12 +60,12 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* Full Screen Dropdown Menu */}
+
       <div 
         className={`fixed inset-0 z-40 bg-white transition-all duration-500 ${
           menuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
         }`}
-        style={{ top: '88px' }} // Offset for navbar height
+        style={{ top: '88px' }} 
       >
         <div className="flex items-center justify-center min-h-full px-6 py-12">
           <nav className="space-y-8 text-center">
@@ -88,7 +88,7 @@ export default function Navbar() {
               </div>
             ))}
 
-            {/* Mobile Support Link */}
+  
             <div className="pt-8 md:hidden">
               <a
                 href="#support"

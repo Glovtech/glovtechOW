@@ -41,15 +41,15 @@ export const metadata: Metadata = {
     locale: 'en_GB',
     url: 'https://www.glovtechghana.com',
     siteName: 'Glovtech Ghana',
-    title: 'Glovtech Ghana | AI Solutions & Web Development',
-    description: 'Leading provider of AI automation, web development, and IT solutions in Ghana. Empowering African businesses with cutting-edge technology.',
+    title: 'Glovtech Ghana | AI Solutions & Software/App Development',
+    description: 'Leading provider of AI automation, web development and IT solutions in Ghana. Empowering African businesses with cutting-edge technology.',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/favicon.png',
         width: 1200,
         height: 630,
-        alt: 'Glovtech Ghana - AI Solutions & Web Development',
-        type: 'image/jpeg',
+        alt: 'Glovtech Ghana - AI Solutions & Software/App Development',
+        type: 'image/png',
       }
     ],
   },
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     creator: '@glovtechghana',
     title: 'Glovtech Ghana | AI Solutions & Web Development',
     description: 'Leading provider of AI automation, web development, and IT solutions in Ghana.',
-    images: ['/twitter-image.jpg'],
+    images: ['/favicon.png'],
   },
 
   // Robots
@@ -79,14 +79,12 @@ export const metadata: Metadata = {
     },
   },
 
-  // Verification codes (add your actual codes)
+  // Verification codes
   verification: {
     google: 'your-google-verification-code-here',
-    // yandex: 'your-yandex-verification-code',
-    // bing: 'your-bing-verification-code',
   },
 
-  // Alternate languages (if you support multiple languages)
+  // Alternate languages
   alternates: {
     canonical: 'https://www.glovtechghana.com',
     languages: {
@@ -94,22 +92,14 @@ export const metadata: Metadata = {
     },
   },
 
-  // Icons
+  // Icons - FIXED VERSION
   icons: {
     icon: [
-      { url: '/favicon.ico' },
-      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
-      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon.png', type: 'image/png', sizes: 'any' },
     ],
-    apple: [
-      { url: '/apple-touch-icon.png' },
-    ],
-    other: [
-      {
-        rel: 'mask-icon',
-        url: '/safari-pinned-tab.svg',
-      },
-    ],
+    shortcut: '/favicon.ico',
+    apple: '/favicon.png',
   },
 
   // Manifest
@@ -130,11 +120,11 @@ const organizationSchema = {
   url: 'https://www.glovtechghana.com',
   logo: {
     '@type': 'ImageObject',
-    url: 'https://www.glovtechghana.com/logo.png',
+    url: 'https://www.glovtechghana.com/favicon.png',
     width: 512,
     height: 512
   },
-  description: 'Leading provider of AI automation, web development, pharmacy management systems, and IT solutions in Ghana.',
+  description: 'Leading provider of AI automation, web development, pharmacy management systems and IT solutions in Ghana.',
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'Your Street Address',
@@ -160,7 +150,7 @@ const organizationSchema = {
   founders: [
     {
       '@type': 'Person',
-      name: 'Your Founder Name'
+      name: 'Ian titus-Glover'
     }
   ],
   areaServed: {
@@ -216,6 +206,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
+        {/* Explicit Favicon Links - ADDED FOR COMPATIBILITY */}
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/favicon.png" />
+        
         {/* Structured Data */}
         <script
           type="application/ld+json"
