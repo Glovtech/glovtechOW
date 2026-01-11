@@ -7,7 +7,7 @@ import Script from 'next/script'
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.glovtechghana.com'),
   title: {
-    default: 'Glovtech Ghana | AI Solutions & Web Development in Ghana',
+    default: 'Glovtech Ghana | AI Solutions & Software/App Development in Ghana',
     template: '%s | Glovtech Ghana'
   },
   description: 'Leading provider of AI automation, web development, pharmacy management systems, and IT solutions in Ghana. Transform your business with cutting-edge technology and innovation.',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'hostel management software',
     'IT consulting Ghana',
     'AI automation Ghana',
-    'custom web development Kumasi',
+    'custom Software/App development Accra',
     'tech solutions Africa',
     'Glovi AI language tutor',
     'digital transformation Ghana',
@@ -124,12 +124,12 @@ const organizationSchema = {
     width: 512,
     height: 512
   },
-  description: 'Leading provider of AI automation, web development, pharmacy management systems and IT solutions in Ghana.',
+  description: 'Leading provider of AI automation,Social media management, software/App development, pharmacy management systems and IT solutions in Ghana.',
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'Your Street Address',
-    addressLocality: 'Kumasi',
-    addressRegion: 'Ashanti',
+    addressLocality: 'Accra',
+    addressRegion: 'Greater Accra',
     postalCode: '00233',
     addressCountry: 'GH'
   },
@@ -162,6 +162,7 @@ const organizationSchema = {
     'Web Development',
     'Pharmacy Management Systems',
     'Hostel Management Software',
+    'School Management Systems',
     'IT Consulting',
     'Digital Transformation'
   ]
