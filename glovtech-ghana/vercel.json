@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/pharma-erp",
+      "destination": "https://gp-ten-ochre.vercel.app",
+      "permanent": true
+    }
+  ]
+}
