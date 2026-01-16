@@ -64,7 +64,7 @@ export default function ProductsSection() {
       title: 'Hostel Management System',
       description: 'We optimize hostel booking and management with our innovative platform for seamless operations.',
       icon: '🏨',
-      link: 'https://glovtechghana.com/hostel-management',
+      link: '/waitlist/hostel-management',
       gradient: 'from-purple-500 to-purple-700',
       details: 'AI-driven booking optimization and seamless management tools for hostels',
     },
@@ -72,7 +72,7 @@ export default function ProductsSection() {
       title: 'Glovi - AI Language Tutor',
       description: 'Custom AI friend tailored to assist you in learning a new language with ease and fun through interactive conversations.',
       icon: '🤖',
-      link: 'https://glovtechghana.com/glovi',
+      link: '/waitlist/glovi',
       gradient: 'from-green-500 to-green-700',
       details: 'Personalized AI language learning companion with interactive features',
     },
@@ -81,7 +81,6 @@ export default function ProductsSection() {
   return (
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
-        {/* Header with Motion Div Effect */}
         <FadeIn delay={100}>
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
@@ -105,7 +104,6 @@ export default function ProductsSection() {
           </div>
         </FadeIn>
 
-        {/* Products Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {products.map((product, index) => (
             <FadeIn key={index} delay={200 + index * 100}>
@@ -127,7 +125,6 @@ export default function ProductsSection() {
                     height: hoveredIndex === index ? '420px' : '340px',
                   }}
                 >
-                  {/* Pharmacy Icon Visual - Pills */}
                   {index === 0 && (
                     <div className="absolute inset-0 opacity-20 pointer-events-none">
                       <div className="absolute top-20 right-12 w-16 h-8 bg-white rounded-full transform rotate-45"></div>
@@ -137,7 +134,6 @@ export default function ProductsSection() {
                     </div>
                   )}
 
-                  {/* Hostel Icon Visual - Building */}
                   {index === 1 && (
                     <div className="absolute inset-0 opacity-15 pointer-events-none">
                       <div className="absolute top-16 right-8 w-32 h-40 bg-white rounded-t-lg">
@@ -153,7 +149,6 @@ export default function ProductsSection() {
                     </div>
                   )}
 
-                  {/* AI Tutor Icon Visual - Chat Bubbles */}
                   {index === 2 && (
                     <div className="absolute inset-0 opacity-20 pointer-events-none">
                       <div className="absolute top-20 right-12">
@@ -175,12 +170,10 @@ export default function ProductsSection() {
                     </div>
                   )}
 
-                  {/* Icon Badge */}
                   <div className="absolute top-6 left-6 w-16 h-16 bg-white rounded-full flex items-center justify-center text-3xl shadow-lg animate-bounce-slow">
                     {product.icon}
                   </div>
 
-                  {/* Content */}
                   <div className="absolute bottom-0 left-0 right-0 p-6 text-white bg-gradient-to-t from-black/60 to-transparent">
                     <h3 className="text-2xl font-bold mb-3">{product.title}</h3>
                     
