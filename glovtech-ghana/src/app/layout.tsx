@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     default: 'Glovtech Ghana | AI Solutions & Software/App Development in Ghana',
     template: '%s | Glovtech Ghana'
   },
-  description: 'Leading provider of AI automation, web development, pharmacy management systems, and IT solutions in Ghana. Transform your business with cutting-edge technology and innovation.',
+  description: 'Leading provider of AI automation, Product Design & Development, pharmacy management systems, Hostel management system, Glovi AI and IT solutions in Ghana. Transform your business with cutting-edge technology and innovation.',
   keywords: [
     'Glovtech Ghana',
     'AI solutions Ghana',
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     site: '@glovtechghana',
     creator: '@glovtechghana',
     title: 'Glovtech Ghana | AI Solutions & Web Development',
-    description: 'Leading provider of AI automation, web development, and IT solutions in Ghana.',
+    description: 'Leading provider of AI automation, web development and IT solutions in Ghana.',
     images: ['/favicon.png'],
   },
 
