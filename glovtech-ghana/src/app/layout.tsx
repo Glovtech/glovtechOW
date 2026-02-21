@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     'AI solutions Ghana',
     'web development Ghana',
     'pharmacy management system Ghana',
+    'Data cleaning',
     'hostel management software',
     'IT consulting Ghana',
     'AI automation Ghana',
@@ -42,13 +43,13 @@ export const metadata: Metadata = {
     url: 'https://www.glovtechghana.com',
     siteName: 'Glovtech Ghana',
     title: 'Glovtech Ghana | AI Solutions & Software/App Development',
-    description: 'Leading provider of AI automation, web development and IT solutions in Ghana. Empowering African businesses with cutting-edge technology.',
+    description: 'Leading provider of Data cleaning, AI automation, web development and IT solutions in Ghana. Empowering African businesses with cutting-edge technology.',
     images: [
       {
         url: '/favicon.png',
         width: 1200,
         height: 630,
-        alt: 'Glovtech Ghana - AI Solutions & Software/App Development',
+        alt: 'Glovtech Ghana - Data Cleaning & AI Solutions & Web Development',
         type: 'image/png',
       }
     ],
@@ -59,8 +60,8 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@glovtechghana',
     creator: '@glovtechghana',
-    title: 'Glovtech Ghana | AI Solutions & Web Development',
-    description: 'Leading provider of AI automation, web development and IT solutions in Ghana.',
+    title: 'Glovtech Ghana | Data Cleaning & AI Solutions & Web Development',
+    description: 'Leading name in Data cleaning, AI automation, web development and IT solutions in Ghana.',
     images: ['/favicon.png'],
   },
 
@@ -102,15 +103,15 @@ export const metadata: Metadata = {
     apple: '/favicon.png',
   },
 
-  // Manifest
+
   manifest: '/site.webmanifest',
 
-  // Additional metadata
+
   category: 'technology',
   applicationName: 'Glovtech Ghana',
 }
 
-// Structured Data for Organization
+
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
@@ -124,7 +125,7 @@ const organizationSchema = {
     width: 512,
     height: 512
   },
-  description: 'Leading provider of AI automation,Social media management, software/App development, pharmacy management systems and IT solutions in Ghana.',
+  description: 'Leading provider of Data cleaning, AI automation, Social media management, software/App development, pharmacy management systems and IT solutions in Ghana.',
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'Your Street Address',
@@ -158,6 +159,7 @@ const organizationSchema = {
     name: 'Ghana'
   },
   knowsAbout: [
+    'Data cleaning',
     'AI Solutions',
     'Web Development',
     'Pharmacy Management Systems',
@@ -175,7 +177,7 @@ const websiteSchema = {
   '@id': 'https://www.glovtechghana.com/#website',
   url: 'https://www.glovtechghana.com',
   name: 'Glovtech Ghana',
-  description: 'AI Solutions & Web Development in Ghana',
+  description: 'Data Cleaning, AI Solutions & Web Development in Ghana',
   publisher: {
     '@id': 'https://www.glovtechghana.com/#organization'
   },
