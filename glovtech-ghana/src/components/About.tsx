@@ -84,7 +84,7 @@ export default function AboutSection() {
             <div className="space-y-6">
               {/* Tags */}
               <div className="flex flex-wrap gap-3">
-                <span className="px-4 py-2 bg-gray-200 text-white text-sm rounded-full font-medium">
+                <span className="px-4 py-2 bg-gray-200 text-gray-700 text-sm rounded-full font-medium">
                IT Consulting
                 </span>
                 <span className="px-4 py-2 bg-gray-200 text-gray-700 text-sm rounded-full font-medium">
