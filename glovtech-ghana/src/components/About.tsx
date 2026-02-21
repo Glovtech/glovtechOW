@@ -49,12 +49,11 @@ export default function AboutSection() {
     { name: 'KINGS COLLEGE', logo: 'KC', color: 'bg-green-200' },
   ]
 
-  // Duplicate for seamless loop
   const duplicatedPartners = [...partners, ...partners, ...partners]
 
   return (
     <section id="about" className="py-20 bg-gray-50">
-      {/* Logo Slideshow */}
+
       <div className="overflow-hidden bg-white py-8 mb-16 border-y border-gray-200">
         <div className="flex animate-scroll">
           {duplicatedPartners.map((partner, index) => (
@@ -85,14 +84,14 @@ export default function AboutSection() {
             <div className="space-y-6">
               {/* Tags */}
               <div className="flex flex-wrap gap-3">
-                <span className="px-4 py-2 bg-green-600 text-white text-sm rounded-full font-medium">
+                <span className="px-4 py-2 bg-gray-200 text-white text-sm rounded-full font-medium">
                IT Consulting
                 </span>
                 <span className="px-4 py-2 bg-gray-200 text-gray-700 text-sm rounded-full font-medium">
               Ai Automation
                 </span>
                 <span className="px-4 py-2 bg-gray-200 text-gray-700 text-sm rounded-full font-medium">
-              App Design & Development
+              Product Design & Development
                 </span>
               </div>
 
@@ -101,14 +100,13 @@ export default function AboutSection() {
               </h2>
 
               <p className="text-lg text-gray-600 leading-relaxed">
-                At Glovtech, our strategic alliances enable us to deliver innovative solutions effectively. By collaborating with industry leaders, we enhance our capabilities and ensure our clients receive the best tools for managing disputes.
-              </p>
+At Glovtech, strategic partnerships allow us to deliver innovative solutions efficiently. By working with industry leaders, we strengthen our capabilities and provide clients with the best tools for effective dispute management.</p>
             </div>
 
-            {/* Right Visual */}
+
             <div className="relative">
               <div className="relative bg-gradient-to-br from-green-100 via-green-50 to-white rounded-3xl p-12 shadow-lg">
-                {/* Floating Partner Logos */}
+       
                 <div className="relative h-96">
                   <div className="absolute top-8 left-12 w-20 h-20 bg-white rounded-full shadow-lg flex items-center justify-center animate-float">
                     <span className="text-green-600 font-bold text-sm">VALUE</span>
@@ -130,7 +128,7 @@ export default function AboutSection() {
                     <span className="text-green-600 font-bold text-sm">ECO</span>
                   </div>
 
-                  {/* Decorative Elements */}
+              
                   <div className="absolute top-32 left-24 w-2 h-2 bg-green-400 rounded-full animate-ping"></div>
                   <div className="absolute bottom-32 right-32 w-2 h-2 bg-green-400 rounded-full animate-ping" style={{ animationDelay: '0.7s' }}></div>
                 </div>
