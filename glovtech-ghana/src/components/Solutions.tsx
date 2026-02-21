@@ -41,23 +41,23 @@ function FadeIn({ children, delay = 0 }: FadeInProps) {
 
 export default function SolutionsSection() {
   const solutions = [
-    { icon: '🤖', text: 'AI-Powered Email Automation' },
-    { icon: '🌐', text: 'Web Design & Development' },
-    { icon: '📈', text: 'SEO Optimization' },
-    { icon: '💼', text: 'IT Consulting & Tech Strategy' },
-    { icon: '🛒', text: 'CMS Integration (WordPress, Shopify)' },
-    { icon: '📱', text: 'Social Media Management' },
-    { icon: '📢', text: 'Google Ads & Facebook Ads Setup' },
-    { icon: '📊', text: 'Custom Web Portals & Dashboards' },
-    { icon: '🌍', text: 'Domain & Hosting Setup' },
-    { icon: '🎨', text: 'Branding & Graphic Design' },
+    {  text: 'AI-Powered Email Automation' },
+    {  text: 'Product Design & Development' },
+    {  text: 'SEO Optimization' },
+    {  text: 'IT Consulting & Tech Strategy' },
+    {  text: 'CMS Integration (WordPress, Shopify)' },
+    {  text: 'Social Media Management' },
+    {  text: 'Google Ads & Facebook Ads Setup' },
+    {  text: 'Custom Web Portals & Dashboards' },
+    { text: 'Domain & Hosting Setup' },
+    {  text: 'Branding & Graphic Design' },
   ]
 
   const standoutPoints = [
-    { icon: '⚡', text: 'Local insight with global tech trends' },
-    { icon: '🎯', text: 'Tailored for African businesses' },
-    { icon: '💡', text: 'Intelligent automation solutions' },
-    { icon: '🚀', text: 'Scale smart, grow faster' },
+    {  text: 'Local insight with global tech trends' },
+    { text: 'Tailored for African businesses' },
+    {  text: 'Intelligent automation solutions' },
+    {  text: 'Scale smart, grow faster' },
   ]
 
   return (
@@ -97,9 +97,6 @@ export default function SolutionsSection() {
                     key={index}
                     className="flex items-start gap-3 group cursor-pointer"
                   >
-                    <span className="text-xl mt-0.5 group-hover:scale-125 transition-transform duration-300">
-                      {solution.icon}
-                    </span>
                     <span className="text-gray-700 group-hover:text-blue-600 transition-colors duration-300">
                       {solution.text}
                     </span>
@@ -177,7 +174,7 @@ export default function SolutionsSection() {
                     key={index}
                     className="flex items-center gap-3 bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all duration-300"
                   >
-                    <span className="text-2xl">{point.icon}</span>
+                  
                     <span className="text-white/90">{point.text}</span>
                   </div>
                 ))}
@@ -186,7 +183,7 @@ export default function SolutionsSection() {
               {/* CTA Button */}
              <a 
                 href="tel:+233540808755"
-                className="block w-full mt-8 px-6 py-4 bg-white text-green-600 font-semibold rounded-xl hover:bg-blue-50 transition-colors duration-300 shadow-lg text-center"
+                className="block w-full mt-8 px-6 py-4 bg-white text-green-600 font-semibold rounded-full hover:bg-blue-50 transition-colors duration-300 shadow-lg text-center"
               >
                 Get Started Today →
               </a>
@@ -204,13 +201,13 @@ export default function SolutionsSection() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="tel:+233540808755"
-                className="px-8 py-4 bg-white text-green-600 font-semibold rounded-xl hover:bg-blue-50 transition-colors duration-300 shadow-lg"
+                className="px-8 py-4 bg-white text-green-600 font-semibold rounded-full hover:bg-blue-50 transition-colors duration-300 shadow-lg"
               >
                 Call Us Now
               </a>
               <a
                 href="#contact"
-                className="px-8 py-4 bg-white/10 backdrop-blur-sm border-2 border-white text-white font-semibold rounded-xl hover:bg-white/20 transition-colors duration-300"
+                className="px-8 py-4 bg-white/10 backdrop-blur-sm border-2 border-white text-white font-semibold rounded-full hover:bg-white/20 transition-colors duration-300"
               >
                 Schedule Consultation
               </a>

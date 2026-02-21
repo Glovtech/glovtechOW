@@ -152,7 +152,7 @@ export default function Footer() {
                 <h3 className="text-lg font-semibold text-white mb-6">Get in Touch</h3>
                 <div className="space-y-4">
                   <div className="flex items-start gap-3">
-                    <span className="text-blue-400 text-xl">📧</span>
+                  
                     <div>
                       <p className="text-sm text-gray-500">Email</p>
                       <a href="mailto:info@glovtech.com" className="text-gray-400 hover:text-white transition-colors">
@@ -161,7 +161,7 @@ export default function Footer() {
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
-                    <span className="text-green-400 text-xl">📱</span>
+               
                     <div>
                       <p className="text-sm text-gray-500">Phone</p>
                       <a href="tel:+233540808755" className="text-gray-400 hover:text-white transition-colors">
@@ -170,7 +170,7 @@ export default function Footer() {
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
-                    <span className="text-purple-400 text-xl">📍</span>
+                  
                     <div>
                       <p className="text-sm text-gray-500">Location</p>
                       <p className="text-gray-400">Accra, Ghana</p>
@@ -193,9 +193,9 @@ export default function Footer() {
                   <input
                     type="email"
                     placeholder="Enter your email"
-                    className="flex-1 px-4 py-3 rounded-xl bg-white/20 backdrop-blur-sm border border-white/30 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/50"
+                    className="flex-1 px-4 py-3 rounded-full bg-white/20 backdrop-blur-sm border border-white/30 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/50"
                   />
-                  <button className="px-6 py-3 bg-white text-green-600 font-semibold rounded-xl hover:bg-blue-50 transition-colors duration-300">
+                  <button className="px-6 py-3 bg-white text-green-600 font-semibold rounded-full hover:bg-blue-50 transition-colors duration-300">
                     Subscribe
                   </button>
                 </div>
